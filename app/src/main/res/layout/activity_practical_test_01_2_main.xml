@@ -10,9 +10,10 @@
 
         <EditText
             android:id="@+id/next_term"
+            android:hint="Next term"
+            android:saveEnabled="false"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:hint="Next term"
             android:layout_weight="1" />
 
         <Button
@@ -25,9 +26,10 @@
 
     <TextView
         android:id="@+id/all_terms"
+        android:text=""
+        android:saveEnabled="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
         android:layout_below="@id/next_term"
         android:layout_alignParentStart="true" />
 
